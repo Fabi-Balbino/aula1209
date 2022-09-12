@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/formstyle.css">
+    <title>FORMULÁRIO DA NOTA</title>
+</head>
+<body>
+    <form action="php/salvar.php" method="POST" enctype="multipart/form-data">
+    
+        <label for="rm">RM: </label> <input type="text" name="rm" id="rm">
+        <br><br><br>
+        <label for="nome">Nome: </label> <input class="input" type="text" name="nome" id="nome">
+        <br><br><br>
+        <label for="nota1">Primeira Nota: </label> <input class="input" type="text" name="nota1" id="nota1">
+        <br><br><br>
+        <label for="nota2">Segunda Nota: </label> <input class="input" type="text" name="nota2" id="nota2">
+        <br><br><br>
+        <label for="nota3">Terceira Nota: </label> <input class="input" type="text" name="nota3" id="nota3">
+        <br><br><br>
+        <label for="faltas">Faltas: </label> <input class="input" type="text" name="faltas" id="faltas">
+        <br><br><br>
+        
+        <div class="container_botao">
+            <input class="botao" type="submit" value="Salvar">
+            <input class="botao" type="reset" value="Limpar">
+        </div>
+    </form>
+</body>
+</html>
